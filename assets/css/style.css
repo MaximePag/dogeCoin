@@ -2,9 +2,12 @@
     font-family: "Comic";
     src: url("../fonts/COMIC.TTF") format("truetype");
 }
+
 body{
     font-family: "Comic";
 }
+
+
 .bg1
 {
     background-color:#F6511D;
@@ -33,4 +36,32 @@ body{
 .bg6
 {
     background-color:#3f3f3f;
+}
+
+#myCarousel {
+    height: 500px;
+    width: auto;
+    overflow:auto;
+}
+
+.fit
+{
+    max-height:500px;
+}
+.imgmod
+{
+    padding:0px;
+    border:0px;
+}
+
+.imginmod
+{
+    border:15px solid black;
+    border-radius:10px;
+}
+
+.transparent
+{
+    background-color:transparent;
+    border:0px;
 }
