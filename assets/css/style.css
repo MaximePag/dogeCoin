@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Comic";
+    src: url("../fonts/COMIC.TTF") format("truetype");
+}
+body{
+    font-family: "Comic";
+}
 .bg1
 {
     background-color:#F6511D;
