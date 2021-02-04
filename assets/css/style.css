@@ -74,7 +74,7 @@ body{
 
 .rainbow{
     background: linear-gradient(to right, red, orange , yellow, green, blue, purple, pink);
-    background-clip: text;
+    -webkit-background-clip: text;
     color: transparent;
     animation: rainbow 3s ease-in-out infinite;
     background-size: 800% 100%;
