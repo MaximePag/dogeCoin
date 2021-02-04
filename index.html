@@ -13,7 +13,8 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg1 fixed-top">
-        <a class="navbar-brand text-white" href="#"><img class="" src="assets/img/dogeglasses.png" alt="Doge avec Lunettes"></a>
+        <a class="navbar-brand text-white" href="#"><img class="" src="assets/img/dogeglasses.png"
+                alt="Doge avec Lunettes"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -32,30 +33,61 @@
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#Social">Reseaux Sociaux</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" data-toggle="modal" data-target="#contact">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
+    <div class="modal fade" id="contact" tabindex="-1" role="dialog" aria-labelledby="mod4" aria-hidden="true">
+        <div class="modal-dialog" role="img">
+            <div class="modal-content">
+                <form class="modal-body">
+                    <div class="form-group">
+                        <label for="subject">Sujet</label>
+                        <input type="text" class="form-control" id="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="textmessage">Tapez votre message</label>
+                        <textarea class="form-control" id="textmessage" rows="3"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="newsletter">
+                        <label class="form-check-label" for="newsletter">Me tenir informé du cours du Dogecoin</label>
+                    </div>
+                    <button type="submit" class="btn btn-success">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col text-center bg2 text-white pt-5 doggos">
                 <img class="fit-picture doge" src="assets/img/dogecoin.png">
             </div>
         </div>
-        <div class="row bg3"  id="Presentation">
+        <div class="row bg3" id="Presentation">
             <div class="col-lg-6 text-center text-white">
                 <div class="mt-3 mb-3 embed-responsive embed-responsive-16by9">
-                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/000al7ru3ms" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/000al7ru3ms"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-lg-6 text-white text-center mt-3">
                 <div class="row">
-                    
+
                     <div class="col-12">
                         <p>Qu'est ce que le dogecoin?</p>
                         <p>Le DogeCoin est une crypto-monnaie avec une image de Shiba Inu comme logo. </p>
-                        <p>Presenté a l'origine comme une blague le 6 décembre 2013, le Dogecoin a rapidement développé sa propre communauté et a atteint une capitalisation de 60 millions de dollars en janvier 2014.</p>
-                        <p>Vous pouvez notamment voir regulierement des references a la devise sur le twitter d'<a href="https://twitter.com/elonmusk?lang=fr">Elon Musk</a>, partisan du Dogecoin.</p>
-                        <p>Si vous voulez en savoir plus, c'est <a href="https://fr.wikipedia.org/wiki/Dogecoin">ICI!</a></p>
+                        <p>Presenté a l'origine comme une blague le 6 décembre 2013, le Dogecoin a rapidement développé
+                            sa propre communauté et a atteint une capitalisation de 60 millions de dollars en janvier
+                            2014.</p>
+                        <p>Vous pouvez notamment voir regulierement des references a la devise sur le twitter d'<a
+                                href="https://twitter.com/elonmusk?lang=fr">Elon Musk</a>, partisan du Dogecoin.</p>
+                        <p>Si vous voulez en savoir plus, c'est <a
+                                href="https://fr.wikipedia.org/wiki/Dogecoin">ICI!</a></p>
                     </div>
                     <div class="col-lg-12 mb-3">
                         <img class="img-fluid d-block mx-auto w-50" src="assets/img/ElonMusk.jpg">
@@ -67,10 +99,11 @@
             <div class="col text-center bg4 text-white">
                 <p class="mt-3">Le DogeCoin est inspiré d'un meme populaire des années 2013, le <a
                         href="https://knowyourmeme.com/memes/doge">Doge</a></p>
-                        <div class="mb-3">
-                            <img class="w-50" src="assets/img/doge.jpg">
-                        </div>
-                <p>Etant elle meme tiré d'un meme, il est evident que cette monnaie en a generé un certain nombres, en voici quelques-un!</p>
+                <div class="mb-3">
+                    <img class="w-50" src="assets/img/doge.jpg">
+                </div>
+                <p>Etant elle meme tiré d'un meme, il est evident que cette monnaie en a generé un certain nombres, en
+                    voici quelques-un!</p>
 
                 <div id="myCarousel" class="carousel slide  mb-3" data-ride="carousel" data-interval="false">
 
@@ -78,9 +111,9 @@
 
                         <div class="carousel-item active">
                             <a><img class="img-fluid z-depth-1 fit " src="assets/img/meme01.png" alt="image"
-                                data-toggle="modal" data-target="#mod1"></a>
-                            <div class="modal fade" id="mod1" tabindex="-1" role="dialog"
-                                aria-labelledby="mod1" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod1"></a>
+                            <div class="modal fade" id="mod1" tabindex="-1" role="dialog" aria-labelledby="mod1"
+                                aria-hidden="true">
                                 <div class="modal-dialog " role="img">
                                     <div class="modal-content transparent ">
                                         <div class="modal-header imgmod d-block mx-auto">
@@ -93,9 +126,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme02.png" alt="image"
-                                data-toggle="modal" data-target="#mod2"></a>
-                            <div class="modal fade" id="mod2" tabindex="-1" role="dialog"
-                                aria-labelledby="mod2" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod2"></a>
+                            <div class="modal fade" id="mod2" tabindex="-1" role="dialog" aria-labelledby="mod2"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -108,9 +141,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme03.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod3"></a>
-                            <div class="modal fade" id="mod3" tabindex="-1" role="dialog"
-                                aria-labelledby="mod3" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod3"></a>
+                            <div class="modal fade" id="mod3" tabindex="-1" role="dialog" aria-labelledby="mod3"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -123,9 +156,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme04.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod4"></a>
-                            <div class="modal fade" id="mod4" tabindex="-1" role="dialog"
-                                aria-labelledby="mod4" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod4"></a>
+                            <div class="modal fade" id="mod4" tabindex="-1" role="dialog" aria-labelledby="mod4"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -138,9 +171,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme05.png" alt="image"
-                                data-toggle="modal" data-target="#mod5"></a>
-                            <div class="modal fade" id="mod5" tabindex="-1" role="dialog"
-                                aria-labelledby="mod5" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod5"></a>
+                            <div class="modal fade" id="mod5" tabindex="-1" role="dialog" aria-labelledby="mod5"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -153,9 +186,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme06.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod6"></a>
-                            <div class="modal fade" id="mod6" tabindex="-1" role="dialog"
-                                aria-labelledby="mod6" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod6"></a>
+                            <div class="modal fade" id="mod6" tabindex="-1" role="dialog" aria-labelledby="mod6"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -168,9 +201,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme07.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod7"></a>
-                            <div class="modal fade" id="mod7" tabindex="-1" role="dialog"
-                                aria-labelledby="mod7" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod7"></a>
+                            <div class="modal fade" id="mod7" tabindex="-1" role="dialog" aria-labelledby="mod7"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -183,9 +216,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme08.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod8"></a>
-                            <div class="modal fade" id="mod8" tabindex="-1" role="dialog"
-                                aria-labelledby="mod8" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod8"></a>
+                            <div class="modal fade" id="mod8" tabindex="-1" role="dialog" aria-labelledby="mod8"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -198,9 +231,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme09.jpg" alt="image"
-                                data-toggle="modal" data-target="#mod9"></a>
-                            <div class="modal fade" id="mod9" tabindex="-1" role="dialog"
-                                aria-labelledby="mod9" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod9"></a>
+                            <div class="modal fade" id="mod9" tabindex="-1" role="dialog" aria-labelledby="mod9"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -213,9 +246,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme10.png" alt="image"
-                                data-toggle="modal" data-target="#mod10"></a>
-                            <div class="modal fade" id="mod10" tabindex="-1" role="dialog"
-                                aria-labelledby="mod10" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod10"></a>
+                            <div class="modal fade" id="mod10" tabindex="-1" role="dialog" aria-labelledby="mod10"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -228,9 +261,9 @@
 
                         <div class="carousel-item">
                             <a><img class="img-fluid z-depth-1 fit" src="assets/img/meme11.png" alt="image"
-                                data-toggle="modal" data-target="#mod11"></a>
-                            <div class="modal fade" id="mod11" tabindex="-1" role="dialog"
-                                aria-labelledby="mod11" aria-hidden="true">
+                                    data-toggle="modal" data-target="#mod11"></a>
+                            <div class="modal fade" id="mod11" tabindex="-1" role="dialog" aria-labelledby="mod11"
+                                aria-hidden="true">
                                 <div class="modal-dialog" role="img">
                                     <div class="modal-content transparent">
                                         <div class="modal-header imgmod">
@@ -259,16 +292,19 @@
                 <h2 class="my-5">Cours Actuel du DogeCoin</h2>
                 <div class="row">
                     <div class="col-lg-6">
-                        <p>Comme nous pouvons le voir sur ce graphique ci dessous, le cours du dogecoin a crevé le plafond !</p>
-                        <p>C'est tout à fait le moment d'investir avant qu'il ne dépasse dans environ 3 jours le cours du bitcoin !</p>
+                        <p>Comme nous pouvons le voir sur ce graphique ci dessous, le cours du dogecoin a crevé le
+                            plafond !</p>
+                        <p>C'est tout à fait le moment d'investir avant qu'il ne dépasse dans environ 3 jours le cours
+                            du bitcoin !</p>
                     </div>
                     <div class="col-lg-6">
                         <img class="img-fluid rounded" src="assets/img/dogestonks.jpeg" alt="STONKS">
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <img class="img-fluid rounded m-2" src="assets/img/dogecoin-chart.jpeg" alt="Cours actuel du DogeCoin">
-                    <img class="to_the_moon" src="assets/img/tothemoon.gif" alt="TO THE MOON !!">    
+                    <img class="img-fluid rounded m-2" src="assets/img/dogecoin-chart.jpeg"
+                        alt="Cours actuel du DogeCoin">
+                    <img class="to_the_moon" src="assets/img/tothemoon.gif" alt="TO THE MOON !!">
                 </div>
             </div>
             <div class="col-lg-6 text-center bg-secondary">
@@ -278,8 +314,11 @@
                         <img class="img-fluid w-50" src="assets/img/dogebusiness.png" alt="Business Doge">
                     </div>
                     <div class="col-lg-12 bg-warning">
-                        <a href="https://coinmarketcap.com/fr/currencies/dogecoin/"><button type="button" class="btn btn-success p-3 my-5">J'achète des DOGECOINS<img class="img-fluid w-50" src="assets/img/lambo.png" alt="Lambo Doge"></button></a>
-                        <button type="button" class="btn btn-primary p-3 my-5 text-white" data-toggle="modal" data-target="#rick">
+                        <a href="https://coinmarketcap.com/fr/currencies/dogecoin/"><button type="button"
+                                class="btn btn-success p-3 my-5">J'achète des DOGECOINS<img class="img-fluid w-50"
+                                    src="assets/img/lambo.png" alt="Lambo Doge"></button></a>
+                        <button type="button" class="btn btn-primary p-3 my-5 text-white" data-toggle="modal"
+                            data-target="#rick">
                             <div class="row">
                                 <div class="col-lg-3">
                                     <p class="wow1 my-5">wow so free</p>
@@ -294,19 +333,18 @@
                                 </div>
                             </div>
                         </button>
-                        <div class="modal fade" id="rick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="rick" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                    <h3 class="modal-title text-center wow4" id="exampleModalLabel">Tuto DogeCoin Gratuit</h3>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
+                                        <h3 class="modal-title text-center wow4" id="exampleModalLabel">Such RickRoll'd wow</h3>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
                                     </div>
                                     <div class="modal-body">
-                                        <div class="embed-responsive embed-responsive-4by3">
-                                            <video id="rickVideo" width="320" height="240" controls autoplay><source src="assets/img/rick.mp4" type="video/mp4"></video>
-                                        </div>
+                                       <img src="assets/img/rick.gif" class="img-fluid w-100" alt="rickroll">
                                     </div>
                                 </div>
                             </div>
@@ -317,33 +355,40 @@
         </div>
         <div class="row" id="Social">
             <div class="col text-center bg6 text-white">
-               
+
                 <div class="row mt-4">
                     <div class="col-12 col-md-12">
                         <h1 class="fw-light title mb-5">FOLLOW US</h1>
-                        <a href="https://fr-fr.facebook.com/OfficialDogecoin/"><button class="btn btn-fb btn-circle btn-lg"><i class="fab fa-facebook fa-3x"></i></button></a>
-                        <a href="https://twitter.com/dogecoin/"><button class="btn btn-twi btn-circle btn-lg"><i class="fab fa-twitter fa-3x"></i></button></a>
-                        <a href="https://www.instagram.com/dogecoin_official/"> <button class="btn btn-ins btn-circle btn-lg"><i class="fab fa-instagram fa-3x"></i></button></a>
+                        <a href="https://fr-fr.facebook.com/OfficialDogecoin/"><button
+                                class="btn btn-fb btn-circle btn-lg"><i class="fab fa-facebook fa-3x"></i></button></a>
+                        <a href="https://twitter.com/dogecoin/"><button class="btn btn-twi btn-circle btn-lg"><i
+                                    class="fab fa-twitter fa-3x"></i></button></a>
+                        <a href="https://www.instagram.com/dogecoin_official/"> <button
+                                class="btn btn-ins btn-circle btn-lg"><i
+                                    class="fab fa-instagram fa-3x"></i></button></a>
 
-                       <div class="row mt-4"> 
-                           <div class="col-lg-12">
-                            <a href="https://twitter.com/dogecoinmemes?lang=fr/"> <button class="btn btn-meme btn-circle btn-lg"><i class="fas fa-paw fa-3x"></i></button></a>
-                           </div>
-                        
-                                           
-                        <div class="mt-5 col-12">
-                            <p>Created by Maxime, Guillaume & Rajiv.
-                             © The Ðogecoin Project </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-12">
+                                <a href="https://twitter.com/dogecoinmemes?lang=fr/"> <button
+                                        class="btn btn-meme btn-circle btn-lg"><i
+                                            class="fas fa-paw fa-3x"></i></button></a>
+                            </div>
+
+
+                            <div class="mt-5 col-12">
+                                <p>Created by Maxime, Guillaume & Rajiv.
+                                    © The Ðogecoin Project
+                            </div>
+                        </div>
                     </div>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
-        crossorigin="anonymous"></script>
-        <script src="assets/js/script.js"></script>
+                </div>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+                    crossorigin="anonymous"></script>
+                <script src="assets/js/script.js"></script>
 </body>
 
 </html>
