@@ -137,3 +137,23 @@ body{
 {
     background-image: url("../../assets/img/ManyDoggos.jpg");
 }
+.btn-fb
+{
+    background-color: #1877F2;
+    color: white;
+}
+.btn-twi
+{
+    background-color: #1DA1F2;
+    color: white;
+}
+.btn-ins
+{
+    background-color: #F24D57;
+    color: white;
+}
+.btn-meme
+{
+    background-color: #ff00c8;
+    color: white;
+}
