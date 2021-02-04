@@ -63,12 +63,12 @@ body{
 }
 @media (max-width: 1024px){
     .to_the_moon{
-        width: 25%;
+        width: 22%;
         position: absolute;
         z-index: 10;
-        transform: rotate(-50deg);
-        top: 10%;
-        left: 83%
+        transform: rotate(-60deg);
+        top: 13%;
+        left: 81%
     }
 }
 
@@ -113,6 +113,7 @@ body{
 {
     border:15px solid black;
     border-radius:10px;
+    width:97vw;
 }
 
 .transparent
