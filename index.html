@@ -12,9 +12,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg1 ">
-        <a class="navbar-brand text-white" href="#"><img class="" src="assets/img/dogeglasses.png"
-                alt="Doge avec Lunettes"></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg1 fixed-top">
+        <a class="navbar-brand text-white" href="#"><img class="" src="assets/img/dogeglasses.png" alt="Doge avec Lunettes"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -38,7 +37,7 @@
     </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col text-center bg2 text-white">
+            <div class="col text-center bg2 text-white pt-5">
                 <img class="fit-picture" src="assets/img/dogecoin.png">
             </div>
         </div>
@@ -241,11 +240,64 @@
             </div>
         </div>
         <div class="row">
-            <div class="col text-center bg2 text-white">
-                Cours du dogecoin
+            <div class="col-lg-6 text-center bg2 text-white">
+                <h2 class="my-5">Cours Actuel du DogeCoin</h2>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Comme nous pouvons le voir sur ce graphique ci dessous, le cours du dogecoin a crevé le plafond !</p>
+                        <p>C'est tout à fait le moment d'investir avant qu'il ne dépasse dans environ 3 jours le cours du bitcoin !</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid rounded" src="assets/img/dogestonks.jpeg" alt="STONKS">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <img class="img-fluid rounded m-2" src="assets/img/dogecoin-chart.jpeg" alt="Cours actuel du DogeCoin">
+                    <img class="to_the_moon" src="assets/img/tothemoon.gif" alt="TO THE MOON !!">    
+                </div>
             </div>
-            <div class="col text-center bg5 text-white">
-                INVEST NOW!
+            <div class="col-lg-6 text-center bg-secondary">
+                <h2 class="my-5 rainbow">INVESTISSEZ !!!</h2>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <img class="img-fluid w-50" src="assets/img/dogebusiness.png" alt="Business Doge">
+                    </div>
+                    <div class="col-lg-12 bg-warning">
+                        <a href="https://coinmarketcap.com/fr/currencies/dogecoin/"><button type="button" class="btn btn-success p-3 my-5">J'achète des DOGECOINS<img class="img-fluid w-50" src="assets/img/lambo.png" alt="Lambo Doge"></button></a>
+                        <button type="button" class="btn btn-primary p-3 my-5 text-white" data-toggle="modal" data-target="#rick">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <p class="wow1 my-5">wow so free</p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>DOGECOIN GIVE AWAY</p>
+                                    <img class="w-50" src="assets/img/dogeglasses2.png" alt="GIVEAWAY">
+                                    <p class="wow3">very cool</p>
+                                </div>
+                                <div class="col-lg-3">
+                                    <p class="wow2 mt-5">much coins</p>
+                                </div>
+                            </div>
+                        </button>
+                        <div class="modal fade" id="rick" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                    <h3 class="modal-title text-center wow4" id="exampleModalLabel">Tuto DogeCoin Gratuit</h3>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="embed-responsive embed-responsive-4by3">
+                                            <video id="rickVideo" width="320" height="240" controls autoplay><source src="assets/img/rick.mp4" type="video/mp4"></video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="row">
@@ -272,6 +324,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>
