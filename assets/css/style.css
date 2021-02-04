@@ -3,6 +3,11 @@
     src: url("../fonts/COMIC.TTF") format("truetype");
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Comic";
 }
@@ -66,9 +71,9 @@ body{
         width: 22%;
         position: absolute;
         z-index: 10;
-        transform: rotate(-60deg);
-        top: 13%;
-        left: 81%
+        transform: rotate(-65deg);
+        top: 17%;
+        left: 80%
     }
 }
 
@@ -120,4 +125,15 @@ body{
 {
     background-color:transparent;
     border:0px;
+}
+
+.doge
+{
+    margin-top:90px;
+    margin-bottom:50px;
+}
+
+.doggos
+{
+    background-image: url("../../assets/img/ManyDoggos.jpg");
 }
